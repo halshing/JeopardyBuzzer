@@ -1,0 +1,72 @@
+#loggedIn {
+    display: none;
+}
+.admin-container {
+    display: none;
+}
+.greeting-container {
+    height: 50px;
+}
+#greeting {
+    float: right;
+}
+.players-container {
+    text-align: center;
+}
+.game-player-container {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    padding: 10px 0 20px 0;
+}
+.game-player-score {
+    font-size: 70px;
+}
+.game-player-name {
+    font-size: 40px;
+}
+.player-container {
+    margin-top: 60px;
+}
+#currentPlayer {
+    text-align: center;
+}
+#btnPlayerAnswer {
+    height: 500px;
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    color: #0d0d0d;
+    background-color: #3399ff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px black;
+    cursor: pointer;
+}
+#btnPlayerAnswer:active {
+    background-color: #1a8cff;
+    color: #000000;    
+}
+#btnPlayerAnswer:disabled {
+    background-color: #bfbfbf;
+    color: #000000;
+    cursor: default;
+}
+.answerButton {
+    margin: 20px 10% 0 10%;
+}
+.answerStatus {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #bfbfbf;
+}
+.answerOpen {
+    background-color: #00cc00;
+}
+.answeredPlayer {
+    border: 10px solid #00cc00;
+    border-radius: 30px;
+}
